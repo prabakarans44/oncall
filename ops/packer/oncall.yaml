@@ -69,11 +69,11 @@ provisioners:
 
 post-processors:
   - type: "docker-tag"
-    repository: "quay.io/iris/oncall"
+    repository: "prabakarans1/oncall"
     tag: "{{ user `app_version` }}"
     only: ["docker"]
 
   - type: "docker-tag"
-    repository: "quay.io/iris/oncall"
+    repository: "prabakarans1/oncall"
     tag: "latest"
     only: ["docker"]

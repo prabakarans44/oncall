@@ -4,9 +4,16 @@ LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` VALUES
     (1,'root',1,'God User',NULL,NULL,1),
-    (2,'manager',1,'Team Admin',NULL,NULL,0),
-    (3,'jdoe',1,'John Doe',NULL,NULL,0),
-    (4,'asmith',1,'Alice Smith',NULL,NULL,0);
+    (2,'Arun',1,'Arun Selvaraj',NULL,NULL,0),
+    (3,'Umar',1,'Mohamed Umar',NULL,NULL,0),
+    (4,'Lokesh',1,'Lokesh Venugopal',NULL,NULL,0),
+    (5,'Adalarasan',1,'Adalarasan Sachithanantham',NULL,NULL,0),
+    (6,'Divya',1,'Divya',NULL,NULL,0),
+    (7,'Kaviarasu',1,'Kaviarasu Palaniappan',NULL,NULL,0),
+    (8,'Naveen',1,'Naveen Kumar',NULL,NULL,0),
+    (9,'Nihkil',1,'Nihkil',NULL,NULL,0),
+    (10,'Nitesh',1,'Nitesh',NULL,NULL,0),
+    (11,'Prakash',1,'Prakash Gopalsamy',NULL,NULL,0);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -103,20 +110,55 @@ INSERT INTO `user_contact` VALUES
     (1,2,'+1 111-111-1111'),
     (1,1,'root@example.com'),
 
-    (2,3,'+1 222-222-2222'),
-    (2,4,'bsmith'),
-    (2,2,'+1 222-222-2222'),
-    (2,1,'bsmith@example.com'),
+    (2,3,'+91 9962183399'),
+    (2,4,'Arun'),
+    (2,2,'+91 9962183399'),
+    (2,1,'Arun@example.com'),
 
-    (3,3,'+1 333-333-3333'),
-    (3,4,'jdoe'),
-    (3,2,'+1 333-333-3333'),
-    (3,1,'jdoe@example.com'),
+    (3,3,'+91 9566760729'),
+    (3,4,'Umar'),
+    (3,2,'+91 9566760729'),
+    (3,1,'Umar@example.com'),
 
-    (4,3,'+1 444-444-4444'),
-    (4,4,'asmith'),
-    (4,2,'+1 444-444-4444'),
-    (4,1,'asmith@example.com');
+    (4,3,'+91 9500129362'),
+    (4,4,'Lokesh'),
+    (4,2,'+91 9500129362'),
+    (4,1,'Lokesh@example.com'),
+
+    (5,3,'+91 7904398076'),
+    (5,4,'Adalarasan'),
+    (5,2,'+91 7904398076'),
+    (5,1,'Adalarasan@example.com'),
+
+    (6,3,'+91 9500423087'),
+    (6,4,'Divya'),
+    (6,2,'+91 9500423087'),
+    (6,1,'Divya@example.com'),
+
+    (7,3,'+91 9841592131'),
+    (7,4,'Kaviarasu'),
+    (7,2,'+91 9841592131'),
+    (7,1,'Kaviarasu@example.com'),
+
+    (8,3,'+91 9003141974'),
+    (8,4,'Naveen'),
+    (8,2,'+91 9003141974'),
+    (8,1,'Naveen@example.com'),
+
+    (9,3,'+1 6692385099'),
+    (9,4,'Nihkil'),
+    (9,2,'+1 6692385099'),
+    (9,1,'Nihkil@example.com'),
+
+    (10,3,'+91 9176861144'),
+    (10,4,'Nitesh'),
+    (10,2,'+91 9176861144'),
+    (10,1,'Nitesh@example.com'),
+
+    (11,3,'+91 9944626090'),
+    (11,4,'Prakash'),
+    (11,2,'+91 9944626090'),
+    (11,1,'Prakash@example.com');
 /*!40000 ALTER TABLE `user_contact` ENABLE KEYS */;
 UNLOCK TABLES;
 

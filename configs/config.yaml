@@ -137,7 +137,6 @@ index_content_setting:
   footer: |
     <ul>
       <li>Oncall © LinkedIn 2017</li>
-      <li>Feedback</li>
       <li><a href="http://oncall.tools" target="_blank">About</a></li>
     </ul>
   # Note displayed when a user has no phone number
